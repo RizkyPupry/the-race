@@ -1,0 +1,85 @@
+@media all and (max-width: 1000px) {
+    .lesson {
+        width: 50%;
+        margin-bottom: 100px;
+    }      
+
+    .lessons {
+        height: 1050px;
+    }
+
+    .top-wrapper {
+        background-size: 51%;
+    }
+
+    .top-wrapper h1 {
+        font-size: 32px;
+    }      
+
+    .heading h2 {
+        font-size: 20px;
+    }
+
+    .header-left {
+        padding-left: 10px;
+    }
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .header-right {
+        display: none;
+    }
+
+    .top-wrapper {
+        background-size: 150%;
+        background-position: 55% 20%;
+        text-align: left;
+    }
+
+    span.menu-icon {
+        display: block;
+    }
+
+    .lesson {
+        width: 100%;
+        padding-bottom: 20px;
+        height: 420px
+    }
+
+    .lessons {
+        height: 2000px;
+    }
+
+    .txt-contents {
+        width: 60%;
+        text-align: justify;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .facebook {
+        margin-bottom: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .top-wrapper h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .message {
+        width: 35%;
+    }
+}
